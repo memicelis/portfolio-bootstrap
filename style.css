@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: #3e3c3c;
+}
+
+.headline-section {
+  background-color: #1c1a19;
+  background-image: url(images/Illustration-header-big.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  height: 54rem;
+}
+
+.headline-text {
+  margin: 0 50.7% 0 0;
+  padding: 15.1% 0;
+}
+
+.social-media-icons {
+  order: -1;
+  color: #cfcfcf;
+}
+
+.works-section {
+  padding: 9% 1.6%;
+  margin: 0 5%;
+}
+
+.works-card {
+  padding: 0;
+}
+
+.works-card--1,
+.works-card--4 {
+  background: url(images/works-card-background.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.works-card--2,
+.works-card--5 {
+  background: url(images/works-card-data-dashboard.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.works-card--3,
+.works-card--6 {
+  background: url(images/works-card-website-portfolio.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.about-myself {
+  background-image: url(images/about-me-big.png);
+  background-repeat: no-repeat;
+  background-size: 41% 29%;
+  background-position: 100% 10%;
+}
+
+.textarea-container {
+  position: relative;
+}
+
+textarea {
+  resize: none;
+  height: 15vh;
+}
+
+.textarea-container svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* COLORS */
+
+.primary-color {
+  color: #fff;
+}
+
+.text-orange {
+  color: #f55800;
+}
+
+.bg-orange {
+  background-color: #f55800;
+}
