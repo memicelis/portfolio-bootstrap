@@ -92,3 +92,27 @@ textarea {
 .bg-orange {
   background-color: #f55800;
 }
+
+@media only screen and (max-width: 767px) {
+  .headline-section {
+    background-size: contain;
+    background-position: center;
+    height: auto;
+  }
+
+  .about-myself-details {
+    text-align: center;
+  }
+
+  .tools {
+    flex-direction: column;
+  }
+
+  .tools-category {
+    justify-content: center;
+  }
+
+  .subcategories {
+    align-self: center;
+  }
+}
